@@ -1,0 +1,10 @@
+# Ваш проверенный стек (системный Python 3.12, Windows). Ставить ничего заново не нужно.
+# torch==2.4.1+cu124
+# transformers==4.46.3
+# peft==0.13.2
+# bitsandbytes==0.44.1
+# accelerate==1.1.1
+# Нужно для веб-сервера (trl и datasets проекту больше не требуются):
+fastapi
+uvicorn
+python-multipart
